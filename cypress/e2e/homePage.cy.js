@@ -13,7 +13,6 @@ describe('Testes na Home', () => {
     });
 
     it('Pesquisando por algum produto', () => {
-        
         // pesquisando por Teclado Logitech
         cy.get('[class="nav-input nav-progressive-attribute"]')
             .first()
