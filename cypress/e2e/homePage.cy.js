@@ -1,5 +1,6 @@
 describe('Testes na Home', () => {
     
+    
     beforeEach(() => {
         cy.viewport(1920,1080)
         cy.visit('https://www.amazon.com.br/')
