@@ -74,4 +74,5 @@ describe('Testes na Home', () => {
         cy.url()
             .should('have.text', 'teclado+logitech')
     });
+    
 });
